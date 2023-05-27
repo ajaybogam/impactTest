@@ -24,3 +24,30 @@ tfoot {
 tfoot th {
   font-weight: normal;
 }
+
+.buttonStyles {
+  width: 80px;
+  height: 38px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.buttonGroping {
+  width: 80px;
+  height: 38px;
+  border-radius: 12px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 20px;
+}

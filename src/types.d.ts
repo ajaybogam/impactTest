@@ -13,5 +13,13 @@ declare namespace FoodRecipeNS {
 
   interface IProps {
     apiResponse: IAPIResponse[];
+    localStorageToSetData: (modifiedResponse: IAPIResponse) => void;
+    handleClickOnSave: (modifiedResponse: IAPIResponse[]) => void;
+    handleClickOnReset: () => void;
+  }
+
+  interface IDataWithCategory {
+    name: string;
+    Category: IAPIResponse;
   }
 }
